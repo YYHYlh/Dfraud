@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout">
+    <EditText
+        android:id="@+id/report_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:inputType="phone"/>
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="号码举报"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/message_analyse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="短信分析" />
+    <Button
+        android:id="@+id/newspaper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新闻入口"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/response_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="24sp"
+            />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
